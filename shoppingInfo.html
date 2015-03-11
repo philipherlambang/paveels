@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>Paveels</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/paveels.css" rel="stylesheet">
+    <link href="./dist/css/font-awesome.css" rel="stylesheet">
+    <link href="./dist/css/bootstrap-select.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./assets/css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="./dist/js/html5shiv.js"></script>
+      <script src="./dist/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+
+  </head>
+    <body>
+        <nav class="top-header-aqua hidden-xs">
+            <div class="container hidden-sm">
+                <a href="#" class="text-white well-margin-right hidden-xs"><i class="fa fa-heart"></i> Wish List</a>
+                <a href="#" class="text-white well-margin-right hidden-xs"><i class="fa fa-user"></i> My Account</a>
+                <span class="top-greeting">Welcome Moms and Dad, you can <a href="#" class="text-yellow">Login</a> or <a href="#" class="text-yellow">Create an account</a> to become Paveels friends</span>
+                
+                <div class="pull-right hidden-xs">
+                    <a href="#" class="text-white well-margin-right text-large"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="text-white well-margin-right text-large"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="text-white text-large"><i class="fa fa-pinterest"></i></a>
+                </div>
+                
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row well-vertical-margin">
+                <div class="col-sm-3 col-xs-6">
+                    <a href="#"><img width="90%" alt="paveels" src="assets/img/logo_header.png"></a>
+                </div>
+                <div class="col-sm-3 well-vertical-margin hidden-sm hidden-xs">
+                    <span class="circle-container-small background-green text-white pull-left">
+                        <i class="fa fa-truck"></i>
+                    </span>
+                    <span class="pull-left">
+                        <p class="text-orange text-bold text-uppercase less-margin">free delivery</p>
+                        <small>For Order Over IDR 200.000</small>
+                    </span>
+                </div>
+                
+                <div class="col-sm-3 well-vertical-margin hidden-sm hidden-xs">
+                    <span class="circle-container-small background-orange text-white pull-left">
+                        <i class="fa fa-phone"></i>
+                    </span>
+                    <span class="pull-left">
+                        <p class="text-orange text-bold text-uppercase less-margin">call us</p>
+                        <small>+6221 98789878</small>
+                    </span>
+                </div>
+                
+                <div class="col-sm-3 well-vertical-margin hidden-sm hidden-xs">
+                    <span class="circle-container-small background-brown text-white pull-left">
+                        <i class="fa fa-phone"></i>
+                    </span>
+                    <span class="pull-left">
+                        <p class="text-orange text-bold text-uppercase less-margin">Shopping cart</p>
+                        <small>0 item(s) - IDR 0.00</small>
+                    </span>
+                </div>
+                
+                <div class="col-xs-6 visible-xs social-media-container">
+                    <a href="#" class="text-aqua well-margin-right"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="text-orange well-margin-right"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="text-dark"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar navbar-default navbar-fixed background-green main-menu">
+            <div class="container">
+                <div class="navbar-header">
+                  <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">wish list</a></li>
+                    <li><a href="#">contact</a></li>
+                    
+                  </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        
+        <div id="shipping">
+
+          <!-- Container -->
+          <div class="container">
+            <div class="three-thumb">
+              <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+                  <div class="greet">
+                    <h4 class="text-uppercase">Shipping Address</h4>
+                    <p>Please enter your valid address</p>
+                  </div>
+                  <div class="thing">
+                    <form class="form-horizontal form-clean" role="form">
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <input type="text" class="form-control" name="address" placeholder="address">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control" name="city" placeholder="city">
+                        </div>
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control" name="state" placeholder="state">
+                        </div>
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control number" name="zipCode" placeholder="zip code">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <input type="text" class="form-control number" name="phone" placeholder="phone">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <button type="submit" class="btn btn-block button-medium background-aqua pull-right">continue</button>
+                        </div>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox"> <span class="text-dark">use same address for billing</span>
+                        </label>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+                  <div class="greet">
+                    <h4 class="text-uppercase">Payment Method</h4>
+                    <p>Please choose your prefered payment method</p>
+                  </div>
+                  <div class="thing">
+                    <form class="form-horizontal form-credit" role="form">
+                      <div class="radio">
+                        <label>
+                          <div class="row">
+                            <div class="col-xs-3">
+                              <input class="pull-right" type="radio" name="paymentMethod" value="mandiri">
+                            </div>
+                            <div class="col-xs-9">
+                              <img src="assets/img/mandiri.png" alt="mandiri">
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <div class="row">
+                            <div class="col-xs-3">
+                              <input class="pull-right" type="radio" name="paymentMethod" value="bca">
+                            </div>
+                            <div class="col-xs-9">
+                              <img src="assets/img/bca.png" alt="bca">
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="radio">
+                        <label>
+                          <div class="row">
+                            <div class="col-xs-3">
+                              <input class="pull-right" type="radio" name="paymentMethod" value="creditcards">
+                            </div>
+                            <div class="col-xs-9">
+                              <img src="assets/img/creditcards.png" alt="creditcards">
+                            </div>
+                          </div>
+                        </label>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <button type="submit" class="btn btn-block button-medium background-aqua pull-right">continue</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0">
+                  <div class="greet">
+                    <h4 class="text-uppercase">Delivery Schedule</h4>
+                  </div>
+                  <div class="thing regular schedule">
+                    <div class="row">
+                      <div class="col-xx col-xs-5">
+                        <h5><b>Payment Confirmed</b></h5>
+                        <p class="seperator"></p>
+                        <p>Monday</p>
+                        <p>Tuesday</p>
+                        <p>Wednesday</p>
+                        <p>Thursday</p>
+                        <p>Friday</p>
+                        <p>Saturday</p>
+                        <p>Sunday</p>
+                      </div>
+                      <div class="col-xx col-xs-4">
+                        <h5><b>Day Checked</b></h5>
+                        <p class="seperator"></p>
+                        <p>Tuesday</p>
+                        <p>Wednesday</p>
+                        <p>Thursday</p>
+                        <p>Friday</p>
+                        <p>Monday</p>
+                        <p>Monday</p>
+                        <p>Monday</p>
+                      </div>
+                      <div class="col-xx col-xs-3">
+                        <h5><b>Day Shipped</b></h5>
+                        <p class="seperator"></p>
+                        <p>Wednesday</p>
+                        <p>Thursday</p>
+                        <p>Friday</p>
+                        <p>Monday</p>
+                        <p>Tuesday</p>
+                        <p>Tuesday</p>
+                        <p>Tuesday</p>
+                      </div>
+                    </div>
+                    <p class="red-text"><i>You will received an airway bill number to enable you to track your delivery status at www.jne.co.id.</i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="greet">
+              <h4 class="lead-helvetica text-uppercase">order summary</h4>
+            </div>
+            <div class="thing">
+              <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-sm-12 col-md-8">
+                  <div class="panel panel-as-table">
+                    <div class="panel-heading">
+                      <div class="row hidden-xs">
+                        <div class="col-sm-6">
+                          <p class="text-bold text-uppercase">product</p>
+                        </div>
+                        <div class="col-sm-2">
+                          <p class="text-center text-uppercase text-bold">price</p>
+                        </div>
+                        <div class="col-sm-2">
+                          <p class="text-center text-uppercase text-bold">quantity</p>
+                        </div>
+                        <div class="col-sm-2">
+                          <p class="text-right text-uppercase text-bold">total</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel-body visible-xs">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="media">
+                            <div class="pull-left">
+                              <img class="media-object" width="50%" alt="cart-2.jpg" src="assets/img/product1.jpg">
+                            </div>
+                            <div class="media-body">
+                              <p>Commodo Consequat</p>
+                              <p><i>Perspiciatis unde omnis iste natus errorsit voluptatem</i></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <p class="price lill-show">PRICE : </p>
+                            </div>
+                            <div class="col-xs-6 col-sm-12">
+                              <p class="price text-center">IDR 140.000</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <p class="price lill-show">QUANTITY : </p>
+                            </div>
+                            <div class="col-xs-6 col-sm-12">
+                              <p class="price text-center">1</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-2">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <p class="price lill-show">TOTAL : </p>
+                            </div>
+                            <div class="col-xs-6 col-sm-12">
+                              <p class="price text-right">IDR 140.000</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel-footer">
+                      <div class="divider">
+                        <div class="sum light no-discount">
+                          <div class="row">
+                            <div class="col-sm-6"></div>
+                            <div class="col-xs-6 col-sm-4">
+                              <p>Total Item Price</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-2">
+                              <p>IDR 140.000</p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6"></div>
+                            <div class="col-xs-6 col-sm-4">
+                              <p>Delivery Costs</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-2">
+                              <p>IDR 8.000</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="divider off">
+                        <div class="total light">
+                          <div class="row">
+                            <div class="col-sm-6"></div>
+                            <div class="col-xs-6 col-sm-4">
+                              <p>Total</p>
+                            </div>
+                            <div class="col-xs-6 col-sm-2">
+                              <p>IDR 148.000</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="act">
+                        <div class="text-center">
+                          <div class="row">
+                            <div class="col-xs-2 col-md-3"></div>
+                            <div class="col-xx col-xs-8 col-md-6">
+                              <button class="btn btn-block button-medium background-aqua pull-right">confirm order</button>
+                            </div>
+                            <div class="col-xs-2 col-md-3"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-2"></div>
+              </div>
+            </div>
+          </div>
+          <!-- ./Container -->
+
+        </div>
+        
+        <footer class="container footer">
+            <div class="row">
+                <div class="col-sm-3 text-gray">&copy; 2015 Paveels.com All Rights Reserved</div>
+                <div class="col-sm-2"><a href="#">Become an Affiliate</a></div>
+                <div class="col-sm-2"><a href="#">Career</a></div>
+                <div class="col-sm-2"><a href="#">Privacy Policy</a></div>
+                <div class="col-sm-2"><a href="#">Terms and Conditions</a></div>
+            </div>
+        </footer>
+        
+        
+        <!-- Bootstrap core JavaScript -->
+        <script src="./dist/js/jquery.min.js"></script>
+        <script src="./assets/js/custom.js"></script>
+        <script src="./assets/js/init.js"></script>
+        <script src="./dist/js/bootstrap.min.js"></script>
+        <script src="./dist/js/bootstrap-select.js"></script>
+
+    </body>
+</html>
