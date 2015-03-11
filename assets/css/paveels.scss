@@ -64,7 +64,7 @@
 /* typography */
 .text-white{color:#ffffff !important}
 .text-orange{color:#f58f21 !important}
-.text-aqua{color:#01b1af !important}
+.text-aqua text-thin{color:#01b1af !important}
 .text-gray{color:#969696 !important}
 .text-purple{color:#816fb1 !important}
 .text-pink{color:#e12e9e !important}
@@ -77,6 +77,7 @@
 .text-dark-brown{color:#75451d !important}
 .text-large{font-size: 120%;}
 .text-uppercase{text-transform: uppercase;}
+.text-lowercase{text-transform: lowercase;}
 .text-bold{font-weight: bold}
 .text-thin{font-weight: 300}
 .text-90{font-size: 90% !important;}
@@ -93,6 +94,9 @@
 .sub-lead-helvetica{font: 14px 'HelveticaNeueCondensedBold'}
 
 .text-underline{text-decoration: underline;}
+
+a{color: #f58f21;}
+a:hover{color: #ba813a; text-decoration: none;}
 
 /* style of paveels */
 .dropdown-menu{
