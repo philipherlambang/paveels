@@ -273,6 +273,9 @@ ul.dropdown-main-menu li a {
 
   .footer {
     font-size: 80%; } }
+@media (max-width: 768px) {
+  .nav > li > a {
+    padding: 10px; } }
 /* carousel */
 .carousel-thumbnail {
   margin-bottom: 20px; }
