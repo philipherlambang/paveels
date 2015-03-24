@@ -34,53 +34,116 @@
     <body>
         <nav class="top-header-aqua hidden-xs">
             <div class="container hidden-sm">
-                <a href="#" class="text-white well-margin-right hidden-xs"><i class="fa fa-heart"></i> Wish List</a>
-                <a href="#" class="text-white well-margin-right hidden-xs"><i class="fa fa-user"></i> My Account</a>
-                <span class="top-greeting">Welcome Moms and Dad, you can <a href="#" class="text-yellow">Login</a> or <a href="#" class="text-yellow">Create an account</a> to become Paveels friends</span>
+                <span class="top-greeting">Welcome Moms and Dad, you can 
+                    <a href="login.html" class="text-yellow">Login</a> or 
+                    <a href="register.html" class="text-yellow">Create an account</a> 
+                    to become Paveels friends
+                </span>
                 
-                <div class="pull-right hidden-xs">
-                    <a href="#" class="text-white well-margin-right text-large"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="text-white well-margin-right text-large"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="text-white text-large"><i class="fa fa-pinterest"></i></a>
-                </div>
-                
+                <span class="pull-right col-sm-4">
+                    <a href="myAccount.html" class="text-white well-margin-right hidden-xs"><i class="fa fa-user"></i> 
+                        <strong>My Account</strong>
+                    </a>
+                    
+                    <a href="myAccount.html" class="text-white well-margin-right hidden-xs"><i class="fa fa-money"></i> 
+                        <strong>Confirm Payment</strong>
+                    </a>
+                    
+                    <div class="dropdown pull-right">
+                        <a data-toggle="dropdown" class="dropdown-toggle text-white well-margin-right hidden-xs">
+                            <i class="fa fa-shopping-cart"></i>&nbsp;<strong>Cart (2) <span class="caret"></span></strong>
+                        </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li>
+                            <div class="media">
+                              <div class="pull-left">
+                                <img width="50" class="media-object" src="assets/img/product1.jpg" alt="cart-1.jpg">
+                              </div>
+                              <div class="media-body text-right">
+                                <p class="light">Commodo Consequat</p>
+                                <p>IDR 240.000</p>
+                              </div>
+                            </div>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                          
+                            <div class="media">
+                              <div class="pull-left">
+                                <img width="50" class="media-object" src="assets/img/product2.jpg" alt="cart-1.jpg">
+                              </div>
+                              <div class="media-body text-right">
+                                <p class="light">Commodo Consequat</p>
+                                <p>IDR 140.000</p>
+                              </div>
+                            </div>
+                          
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <p class="light">Sub Total</p>
+                            </div>
+                            <div class="col-xs-6">
+                              <p class="text-right">IDR 360.000</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <p class="light">Shipping</p>
+                            </div>
+                            <div class="col-xs-6">
+                              <p class="text-right">IDR 16.000</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <p class="text-bold">Total</p>
+                            </div>
+                            <div class="col-xs-6">
+                              <p class="text-right text-bold">IDR 376.000</p>
+                            </div>
+                          </div>  
+                        </li>
+                        <li><a href="shoppingCart.html" class="text-center text-brown">Go Shopping Cart Page</a></li>
+                        <li>
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <button class="btn btn-block button-small background-aqua">Keep Shopping</button>
+                            </div>
+                            <div class="col-xs-6">
+                              <a href="checkout.html" class="btn btn-block button-small background-orange">Checkout</a>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                </span>
             </div>
         </nav>
         
         <div class="container">
-            <div class="row well-vertical-margin">
+            <div class="row">
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img width="90%" alt="paveels" src="assets/img/logo_header.png"></a>
-                </div>
-                <div class="col-sm-3 well-vertical-margin hidden-sm hidden-xs">
-                    <span class="circle-container-small background-green text-white pull-left">
-                        <i class="fa fa-truck"></i>
-                    </span>
-                    <span class="pull-left">
-                        <p class="text-orange text-bold text-uppercase less-margin">free delivery</p>
-                        <small>For Order Over IDR 200.000</small>
-                    </span>
+                    <a href="index.html"><img width="100%" alt="paveels" src="assets/img/logo_header.png"></a>
                 </div>
                 
-                <div class="col-sm-3 well-vertical-margin hidden-sm hidden-xs">
-                    <span class="circle-container-small background-orange text-white pull-left">
-                        <i class="fa fa-phone"></i>
-                    </span>
-                    <span class="pull-left">
-                        <p class="text-orange text-bold text-uppercase less-margin">call us</p>
-                        <small>+6221 98789878</small>
-                    </span>
-                </div>
-                
-                <div class="col-sm-3 well-vertical-margin hidden-sm hidden-xs">
-                    <span class="circle-container-small background-brown text-white pull-left">
-                        <i class="fa fa-phone"></i>
-                    </span>
-                    <span class="pull-left">
-                        <p class="text-orange text-bold text-uppercase less-margin">Shopping cart</p>
-                        <small>0 item(s) - IDR 0.00</small>
-                    </span>
-                </div>
+                <div class="col-sm-6 pull-right well-vertical-margin hidden-sm hidden-xs">
+                    <div class="col-sm-8 pull-right">
+                        <div class="input-group">
+                          <input type="text" class="form-control" placeholder="Search">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default background-orange text-white" type="button"><i class="fa fa-search"></i>
+</button>
+                          </span>
+                        </div>
+                    </div>
+                </div>                
                 
                 <div class="col-xs-6 visible-xs social-media-container">
                     <a href="#" class="text-aqua text-thin well-margin-right"><i class="fa fa-facebook"></i></a>
@@ -103,14 +166,92 @@
                 
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Brands</a></li>
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">wish list</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Bathing <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Bath Accessory</a></li>
+                          <li><a href="#">Bath Toy</a></li>
+                          <li><a href="#">Grooming Set</a></li>
+                          <li><a href="#">Washcloth</a></li>
+                        </ul>
+                    </li>  
                     
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">eating <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Bottle</a></li>
+                          <li><a href="#">Bottle Accessory</a></li>
+                          <li><a href="#">Bowl</a></li>
+                          <li><a href="#">Container</a></li>
+                          <li><a href="#">Feeder</a></li>
+                          <li><a href="#">Maker</a></li>
+                          <li><a href="#">Meal Set</a></li>
+                          <li><a href="#">Plate</a></li>
+                          <li><a href="#">Snack Bag</a></li>
+                          <li><a href="#">Utensil</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">outing <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Baby Carrier</a></li>
+                          <li><a href="#">Backpack</a></li>
+                          <li><a href="#">Car Accessory</a></li>
+                          <li><a href="#">Changing Pad</a></li>
+                          <li><a href="#">Diaper Bag</a></li>
+                          <li><a href="#">Lunch Box</a></li>
+                          <li><a href="#">Stroller Accessory</a></li>
+                          <li><a href="#">Stroller Seat</a></li>
+                          <li><a href="#">Travel Accessory</a></li>
+                        </ul>
+                    </li>  
+                      
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">playing <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Puzzle</a></li>
+                          <li><a href="#">Soft Toy</a></li>
+                          <li><a href="#">Diaper Bag</a></li>
+                          <li><a href="#">Teether</a></li>
+                          <li><a href="#">Wooden Toy</a></li>
+                        </ul>
+                    </li> 
+                      
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sleeping <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Blanket</a></li>
+                          <li><a href="#">Comforter</a></li>
+                          <li><a href="#">Pillow</a></li>
+                        </ul>
+                    </li>
+                      
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sleeping <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Body Care</a></li>
+                          <li><a href="#">Health Care</a></li>
+                          <li><a href="#">Oral Care</a></li>
+                        </ul>
+                    </li>
+                      
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Others <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Car</a></li>
+                          <li><a href="#">Safety</a></li>
+                          <li><a href="#">Walker</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Sleeping <span class="caret"></span></a>
+                        <ul class="dropdown-menu dropdown-main-menu" role="menu">
+                          <li><a href="#">Corset</a></li>
+                          <li><a href="#">Maternity</a></li>
+                        </ul>
+                    </li>
                   </ul>
                 </div><!--/.nav-collapse -->
             </div>
@@ -121,7 +262,7 @@
       <!-- Container -->
       <div class="container">
         <div class="greet">
-          <h4 class="text-orange text-uppercase">Shopping Cart</h4>
+          <h1 class="text-orange text-thin">Shopping Cart</h1>
         </div>
         <div class="thing">
           <div class="row">
@@ -160,9 +301,6 @@
                     </div>
                     <div class="col-sm-2">
                       <div class="row">
-                        <div class="col-xs-6">
-                          <p class="price lill-show">PRICE : </p>
-                        </div>
                         <div class="col-xs-6 col-sm-12">
                           <p class="price text-right">IDR 140.000</p>
                         </div>
@@ -170,9 +308,6 @@
                     </div>
                     <div class="col-sm-2">
                       <div class="row">
-                        <div class="col-xs-6">
-                          <p class="price lill-show">QUANTITY : </p>
-                        </div>
                         <div class="col-xs-6 col-sm-12">
                           <input type="text" class="form-control number" name="quantity" placeholder="quantity" value="1">
                         </div>
@@ -180,9 +315,6 @@
                     </div>
                     <div class="col-sm-2">
                       <div class="row">
-                        <div class="col-xs-6">
-                          <p class="price lill-show">TOTAL : </p>
-                        </div>
                         <div class="col-xs-6 col-sm-12">
                           <p class="price text-right">IDR 140.000</p>
                         </div>
@@ -254,11 +386,29 @@
         
         <footer class="container footer">
             <div class="row">
-                <div class="col-sm-3 text-gray">&copy; 2014 Munchkin. All Rights Reserved</div>
-                <div class="col-sm-2"><a href="#">Become an Affiliate</a></div>
-                <div class="col-sm-2"><a href="#">Career</a></div>
-                <div class="col-sm-2"><a href="#">Privacy Policy</a></div>
-                <div class="col-sm-2"><a href="#">Terms and Conditions</a></div>
+                <div class="col-sm-4 footer-link-container">
+                    <ul>
+                        <li><a href="aboutUs.html">About us</a></li>
+                        <li><a href="contactUs.html">Contact us</a></li>
+                        <li><a href="myAccount.html">Membership</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 footer-link-container">
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="exchange.html">Exchange Policy</a></li>
+                        <li><a href="termsCondition.html">Terms and Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 footer-link-container">
+                    <ul>
+                        <li>
+                            <a href="https://instagram.com/paveels/" target="_blank"><i class="fa fa-instagram text-orange"></i></a>
+                            <a href="http://www.facebook.com/paveels" target="_blank"><i class="fa fa-facebook-square text-orange"></i></a>
+                        </li>
+                        <li>&copy; 2013-2015 paveels.com <br/>All Rights Reserved</li>
+                    </ul>
+                </div>
             </div>
         </footer>
         

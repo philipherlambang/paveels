@@ -53,7 +53,7 @@
 .text-orange {
   color: #f58f21 !important; }
 
-.text-aqua text-thin {
+.text-aqua {
   color: #01b1af !important; }
 
 .text-gray {
@@ -252,7 +252,7 @@ ul.dropdown-main-menu li a {
 
 .product-container-home {
   float: left;
-  margin-bottom: 10px; }
+  margin-bottom: 15px; }
 
 @media (max-width: 480px) {
   .main-menu ul.navbar-nav li a {
