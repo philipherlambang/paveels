@@ -1,0 +1,27 @@
+        <div id="included_header"></div>
+        
+        <div class="container">
+            <div class="row well-vertical-margin">
+                
+                <div class="col-sm-3 product-container-home col-xs-6">
+                    <a href="productList_bottle.html" class="small-margin-bottom">
+                        <img src="assets/img/bottleDog.jpg" width="100%"> 
+                    </a>
+                    <p class="sub-lead-helvetica text-brown text-uppercase small-margin-bottom">Bottle</p>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div id="included_footer"></div>
+        
+        <!-- Bootstrap core JavaScript -->
+        <script src="./dist/js/jquery.min.js"></script>
+        
+        <!-- jquery include html file -->
+        <script> 
+        $(function(){
+          $("#included_header").load("header.html"); 
+          $("#included_footer").load("footer.html"); 
+        });
+        </script>
